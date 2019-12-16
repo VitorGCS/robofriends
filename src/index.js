@@ -20,3 +20,5 @@ ReactDOM.render(
                 </Provider>, document.getElementById('root'));
 
 serviceWorker.unregister();
+
+//Update merge conflict demo
