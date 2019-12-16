@@ -17,6 +17,7 @@ class App extends Component {
     
     //add Lifecycle method componentDidMount() to get dynamically users
     componentDidMount(){
+        //console.log(this.props.store.getState());
         fetch('https://jsonplaceholder.typicode.com/users')
             .then(response => response.json())
             .then(users => this.setState({robots: users}));  
